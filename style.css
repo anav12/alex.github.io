@@ -852,6 +852,14 @@
   \*-----------------------------------*/
   
   /**
+ * responsive larger than 450px screen
+ */
+
+@media (min-width: 450px) {
+    
+  }
+
+  /**
    * responsive larger than 580px screen
    */
   
@@ -1020,16 +1028,10 @@
   
   
     /**
-     * #PORTFOLIO, BLOG
+     * #PORTFOLIO
      */
   
-    .project-img, .blog-banner-box { border-radius: 16px; }
-  
-    .blog-posts-list { gap: 30px; }
-  
-    .blog-content { padding: 25px; }
-  
-  
+    .project-img{ border-radius: 16px; }
   
     /**
      * #CONTACT
@@ -1052,8 +1054,6 @@
     .form-btn ion-icon { font-size: 18px; }
   
   }
-  
-  
   
   
   
